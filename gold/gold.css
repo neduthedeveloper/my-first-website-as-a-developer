@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    color: white;
+}
+.mack{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 5rem;
+}
+.nav{
+    display: flex;
+    margin-right: 5rem;
+    margin-left: 2rem;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+.nav li{
+    list-style-type: none;
+    margin-left: 2rem;
+    cursor:pointer;
+}
+#greeting{
+    color:#6c63ff;
+}
+#name{
+    color:#6c63ff;
+}
+.nav li:hover{
+    color:#6c63ff
+}
+.container{
+    display: flex;
+}
+.my-picture{
+    margin-left: 12rem;
+}
+.text{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    max-width: 30rem;
+}
+.dix{
+    font-weight: 700;
+    font-size: 5rem;
+}
+.about-me-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.about-me-cover{
+    margin-left:5rem;
+
+}
+.about-me{
+    
+    display:flex;
+}
+.about-me p{
+    font-weight:500;
+    font-size:1.5rem;
+    max-width: 30rem;
+}
+.about-us-picture{
+   margin-left:10rem;
+}
+.contact-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.rob{
+    padding-top: 5rem;
+}
+.profile-container{
+    margin-left: 5rem;
+    display:flex;
+}
+a{
+    color:#6c63ff;
+    text-decoration: none;
+    font-style:italic;
+    font-size: 1.2rem;
+}
+.profile-paragraph{
+    font-size: 1.2rem;
+    max-width: 25rem;
+    padding-top:5rem;
+    margin-left:5rem;
+}
